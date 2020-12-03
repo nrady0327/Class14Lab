@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradebook Application</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+<h1>Gradebook Application</h1>
+
+<form>
+
+    <label for="firstText">First Name: </label>
+        <input type="text" id="firstText">
+
+<br>
+
+    <label for="lastText">Last Name: </label>
+        <input type="text" id="lastText">
+<br>
+    <label for="pointsNumber">Points Earned: </label>
+            <input type="number" id="pointsNumber">
+    <br>
+    <label for="possiblePoints">Possible Points: </label>
+    <input type="number" id="possiblePoints">
+    <br>
+<button id="calcButton">Calculate Grade</button>
+    <ul>
+        <li>First Name: <span id="firstNameObject"></span> </li>
+        <li>Last Name: <span id="lastNameObject"></span> </li>
+        <li>Percentage: <span id="percentageObject"></span> </li>
+        <li>Letter Grade: <span id="gradeObject"></span> </li>
+    </ul>
+</form>
+
+
+<footer>Nick Rady &copy; December 2020</footer>
+</body>
+</html>
